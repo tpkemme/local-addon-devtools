@@ -1,5 +1,10 @@
+# Chrome Developer Tools Addon for Local By Flywheel
+
+## Description
+Add this addon to Local By Flywheel to access the Chrome Developer Tools while Local is open.  This is a useful tool when for developing addons for Local.  Also includes a function reload() that can be run in the Developer Tools Console to reload the application.
+
 ## Quick Start
- 1. Clone this repo: `git clone git@github.com:JRGould/simple-pressmatic-addon.git my-pressmatic-addon && cd my-pressmatic-addon`
+ 1. Clone this repo: `git clone git@github.com:tpkemme/local-addon-devtools.git local-addon-devtools && cd local-addon-devtools`
  1. Run `npm install`
  1. Run initial build: `npm run-script build`
  1. Link into Local's `addon` directory: `ln -s "$(pwd)" ~/Library/Application Support/Local by Flywheel/addons`
