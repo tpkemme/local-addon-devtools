@@ -1,7 +1,7 @@
 {
   "name": "local-addon-devtools",
   "productName": "Devtools Addon for Local",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Tyler Kemme",
   "contributors": [
     {
@@ -17,9 +17,11 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src -d lib",
-    "watch": "run-when-changed --watch 'src/*.js' --exec 'npm run-script build'"
+    "watch": "run-when-changed --watch 'src/*.js' --exec 'npm run-script build'",
+	"version": "auto-changelog --package; git add CHANGELOG.md"
   },
   "devDependencies": {
+    "auto-changelog": "*",
     "babel": "^6.5.2",
     "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
