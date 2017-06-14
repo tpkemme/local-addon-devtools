@@ -5,10 +5,10 @@ Add this addon to Local By Flywheel to access the Chrome Developer Tools while L
 
 ## Quick Start
  1. Clone this repo: `git clone git@github.com:tpkemme/local-addon-devtools.git local-addon-devtools && cd local-addon-devtools`
- 1. Run `npm install`
- 1. Run initial build: `npm run-script build`
- 1. Link into Local's `addon` directory: `ln -s "$(pwd)" ~/Library/Application Support/Local by Flywheel/addons`
- 1. Restart Local and activate addon from Settings > Addons
+ 2. Run `npm install`
+ 3. Run initial build: `npm run-script build`
+ 4. Link into Local's `addon` directory: `ln -s "$(pwd)" ~/Library/Application\ Support/Local\ by\ Flywheel/addons`
+ 5. Restart Local and activate addon from Settings > Addons
 
 ## Developing
 
